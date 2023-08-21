@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* Mặc định trình duyệt có font là 16px 
+    đổi font thành 10px -> 10/16 * 100% = 62.5%
+    dùng rem: 1 rem = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins";
+}
