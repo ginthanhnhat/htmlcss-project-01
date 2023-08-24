@@ -139,6 +139,7 @@ a {
 /* ============== Clients ============== */
 .clients {
     margin-top: 122px;
+    margin-bottom: 120px;
 }
 
 .content {
@@ -211,6 +212,7 @@ a {
     line-height: 1.875;
 }
 
+/* Guide-list */
 .list-guide {
     margin-top: 70px;
     display: flex;
@@ -231,7 +233,8 @@ a {
 }
 
 .guide-item .link {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     margin-top: 10px;
     color: #0689ff;
     font-size: 1.4rem;
@@ -239,8 +242,7 @@ a {
 }
 
 .guide-item .arrow {
-    margin-left: 6px;
-    transform: translateY(35%);
+    margin-left: 8px;
 }
 
 .guide-cta {
@@ -251,4 +253,113 @@ a {
 
 .guide-cta .btn {
     min-width: 170px;
+}
+
+/* ============== Featured ============== */
+/* Feature-header */
+.featured {
+    background-color: #f5fafe;
+    padding: 110px 0;
+    margin-top: 120px;
+}
+
+.featured .content {
+}
+
+.featured .sub-title {
+    color: #000339;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.featured .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.featured .row .desc {
+    color: #5a6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.875;
+}
+
+.featured .link {
+    display: flex;
+    align-items: center;
+    color: #0689ff;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.featured .link .arrow {
+    margin-left: 8px;
+}
+
+/* Feature-list */
+.featured .list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.featured .list .item {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 65px 80px -46px rgba(226, 238, 249, 0.6);
+}
+
+.featured .thumb {
+    width: 100%;
+    height: 227px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    /* overflow: hidden; */
+}
+
+.featured .body {
+    margin: 0 20px;
+}
+
+.featured .list .title {
+    margin-top: 17px;
+    color: #000339;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.featured .list .desc {
+    margin-top: 11px;
+    color: #a3a6ab;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.featured .info-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 21px 0 22px;
+}
+
+.featured .info-item {
+    display: flex;
+    align-items: center;
+}
+
+.featured .icon {
+}
+
+.featured .list .label {
+    margin-left: 8px;
+    color: #4d4d52;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.14px;
 }
