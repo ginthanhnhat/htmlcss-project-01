@@ -394,6 +394,7 @@ a {
 }
 
 .stats .img-block {
+    position: relative;
     border-radius: 12px;
     box-shadow: 40px 80px 155px 0px rgba(30, 103, 113, 0.03);
 }
@@ -432,11 +433,124 @@ a {
     background: #000339;
 }
 
-.stats .desc {
+.stats .info .desc {
     width: 309px;
     margin-top: 20px;
     color: #5a6473;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.88;
+}
+
+/* Stats-trend */
+
+.stats .stats-trend {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 239px;
+    padding: 45px 22px 40px;
+    border-radius: 0px 0px 12px 12px;
+    background: #fff;
+    box-shadow: 90px 85px 100px 0px rgba(0, 0, 0, 0.06);
+}
+
+.stats-trend .row {
+}
+
+.stats-trend .value {
+    color: #000339;
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+.stats-trend .icon {
+    margin-left: auto;
+}
+
+.stats-trend .desc {
+    margin-top: 8px;
+    color: #a7a7a7;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.stats-trend .separate {
+    margin-top: 25px;
+    height: 1.2px;
+    background: #e9e9e9;
+}
+
+.stats-trend .avatar-block {
+    display: flex;
+    gap: 16px 14px;
+    flex-wrap: wrap;
+    margin-top: 26px;
+}
+
+.stats-trend .avatar-group {
+    display: flex;
+}
+
+.stats-trend .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    margin-left: -3px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stats-trend .avatar:first-child {
+    margin-left: 0;
+}
+
+.avatar.no-img {
+    color: #fff;
+    font-family: Circular Std;
+    font-size: 0.7261rem;
+    font-weight: 450;
+    letter-spacing: -0.145px;
+}
+
+.avatar.no-img.no-1 {
+    background-color: #f97f6b;
+}
+
+.avatar.no-img.no-2 {
+    background-color: #275edd;
+}
+
+.avatar.no-img.no-3 {
+    background-color: #73a242;
+}
+
+.avatar.no-img.no-4 {
+    background-color: #e18a20;
+}
+
+.stats .row-qty {
+    justify-content: space-between;
+    margin-top: 110px;
+    padding: 0 32px;
+}
+
+.stats .qty-item {
+}
+
+.stats .qty {
+    color: #000;
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+
+.stats .qty-desc {
+    margin-top: 24px;
+    color: #7b8087;
+    font-size: 1.8rem;
+    font-weight: 500;
 }
